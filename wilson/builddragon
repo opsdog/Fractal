@@ -1,0 +1,4 @@
+#clear
+#pc -c dragon.p +O1
+#pc dragon.o  -ldd300h -ldd300l -lddhpterm -ldd98550 -lddhil -lsbcgm -lsb1 -lsb2 -ldvio -lm -o Dragon
+cc -o Dragon dragon.c -L/home/saturn/doug/Graphics/X/Generic -lGenericX -lX11 -lm

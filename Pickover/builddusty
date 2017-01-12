@@ -1,0 +1,2 @@
+gcc -o MetaDustyCurls MetaDustyCurls.c 
+gfortran -o DustyCurls DustyCurls.f

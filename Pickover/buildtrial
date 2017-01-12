@@ -1,0 +1,4 @@
+cc -c OpenWindow.c -O
+ar ruv XLib.a OpenWindow.o
+ranlib XLib.a
+f77 trial.f XLib.a -lX11 -lm -O -o Trial

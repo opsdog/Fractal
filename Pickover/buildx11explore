@@ -1,0 +1,4 @@
+cc -c OpenWindow.c -O
+ar ruv XLib.a OpenWindow.o
+ranlib XLib.a
+f77 -O3 X11Explore.f XLib.a -lX11 -lm -o X11Explore

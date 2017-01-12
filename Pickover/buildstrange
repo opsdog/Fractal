@@ -1,0 +1,4 @@
+cc -c OpenWindow.c -O -I/usr/local/X11/include
+ar ruv XLib.a OpenWindow.o
+ranlib XLib.a
+f77 -O4 Strange.f XLib.a -lX11 -lm -o Strange

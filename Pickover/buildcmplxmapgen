@@ -1,0 +1,3 @@
+#cc -c OpenWindow.c -O
+#ar ruv XLib.a OpenWindow.o
+f77 CmplxMapGen.f ./XLib.a -lX11 -lm -O -o CmplxMapGen

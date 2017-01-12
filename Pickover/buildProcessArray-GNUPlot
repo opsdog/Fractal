@@ -1,0 +1,1 @@
+gcc ProcessArray-GNUPlot.c -L/usr/X11R6/lib -lplot -lpng -lXaw -lXmu -lXt -lXext -lX11 -lm -o ProcessArray-GNUPlot

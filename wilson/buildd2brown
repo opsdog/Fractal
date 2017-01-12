@@ -1,0 +1,6 @@
+#clear
+#cc Explore.c -lddhpterm -ldd98550 -lddhil -lsbcgm -lsb1 -lsb2 -ldvio -lm -o Explore -O
+pc -c d2brown.p
+#pc d2brown.o /usr/lib/starbase/demos/SBUTILS/sbutils.a -ldd300h -ldd300l -lddhpterm -ldd98550 -lddhil -lsbcgm -lsb1 -lsb2 -ldvio -lm -o LandScape
+pc d2brown.o  -ldd300h -ldd300l -lddhpterm -ldd98550 -lddhil -lsbcgm -lsb1 -lsb2 -ldvio -lm -o LandScape
+

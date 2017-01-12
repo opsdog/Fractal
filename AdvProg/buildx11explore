@@ -1,0 +1,1 @@
+cc X11Explore.c -lX11 -lm -O -o X11Explore

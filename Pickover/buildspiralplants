@@ -1,0 +1,3 @@
+cc -c OpenWindow.c -O -I/usr/openwin/include
+ar ruv XLib.a OpenWindow.o
+f77 -O -L/usr/openwin/lib SpiralPlants.f ./XLib.a -lX11 -lm -o SpiralPlants

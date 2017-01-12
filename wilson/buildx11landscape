@@ -1,0 +1,1 @@
+cc X11Landscape.c -lX11 -lm -O -o X11Landscape
